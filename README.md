@@ -1,9 +1,8 @@
 # TheMostFabulousMagentoMigrationChecklist
 Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checklist you can use for migrating Magento to a new host. 
 
+### Match Service Versions
 <details>
-   
-  ### Match Service Versions
   <summary>PHP, MySQL, Redis, Varnish, ElasticSearch, OpenSearch, RabbitMQ</summary>
   
   1. PHP
