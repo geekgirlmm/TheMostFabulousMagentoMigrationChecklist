@@ -74,7 +74,7 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
 
 ### FishPig, certain themes, SEO and other oddities
 <details>
-  <summary>For the love of all things Magento: modules</summary>
+  <summary>What if your fishes and pigs are running amuck?</summary>
   
   1. FishPig
   2. Pearl theme
