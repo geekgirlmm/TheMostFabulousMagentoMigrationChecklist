@@ -94,7 +94,7 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
 
 ### Optimization
 <details>
-  <summary>Why you slow Magento?: caching, indexes, other/summary>
+  <summary>Why you slow Magento?: caching, indexes, other </summary>
   
   1. Caching
   2. Indexes
