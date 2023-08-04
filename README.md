@@ -2,9 +2,9 @@
 Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checklist you can use for migrating Magento to a new host. 
 
 <details>
-  <summary>Match service versions</summary>
+  <summary>### Match service versions</summary>
   
-  ### Matching Service Versions
+  ### Match Service Versions
   1. PHP
   2. MySQL
   3. Redis
