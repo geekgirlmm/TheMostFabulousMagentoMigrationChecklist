@@ -9,6 +9,7 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
      ```
      php -v
      ```
+     
   3. MySQL
   4. Redis
   5. Varish
