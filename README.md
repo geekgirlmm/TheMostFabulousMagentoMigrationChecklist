@@ -6,12 +6,15 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
   <summary>Just do it: PHP, MySQL, Redis, Varnish, ElasticSearch, OpenSearch, RabbitMQ</summary>
   
   1. PHP
-  2. MySQL
-  3. Redis
-  4. Varish
-  5. ElasticSearch
-  6. OpenSearch
-  7. RabbitMQ
+     ```
+     php -v
+     ```
+  3. MySQL
+  4. Redis
+  5. Varish
+  6. ElasticSearch
+  7. OpenSearch
+  8. RabbitMQ
 
 </details>
 
