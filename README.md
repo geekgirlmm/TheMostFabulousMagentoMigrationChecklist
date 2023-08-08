@@ -21,9 +21,13 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
      ```
      
   7. Varish
-  8. ElasticSearch
-  9. OpenSearch
-  10. RabbitMQ
+     ```
+     varnishstat -V
+     ```
+     
+  9. ElasticSearch
+  10. OpenSearch
+  11. RabbitMQ
 
 </details>
 
