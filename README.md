@@ -11,11 +11,19 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
      ```
      
   3. MySQL
-  4. Redis
-  5. Varish
-  6. ElasticSearch
-  7. OpenSearch
-  8. RabbitMQ
+     ```
+     mysql --version
+     ```
+     
+  5. Redis
+     ```
+     redis-cli --version
+     ```
+     
+  7. Varish
+  8. ElasticSearch
+  9. OpenSearch
+  10. RabbitMQ
 
 </details>
 
