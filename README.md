@@ -1,6 +1,5 @@
 # TheMostFabulousMagentoMigrationChecklist
 Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checklist you can use for migrating Magento to a different host. 
-
 ### Match Service Versions
 <details>
   <summary>Just do it: PHP, MySQL, Redis, Varnish, ElasticSearch, OpenSearch, RabbitMQ</summary>
@@ -20,16 +19,37 @@ Ummm name says it all TheMostFabulousMagentoMigrationChecklist. This is a checkl
      redis-cli --version
      ```
      
-  7. Varish
+  7. Varnish
      ```
      varnishstat -V
      ```
      
   9. ElasticSearch
   10. OpenSearch
-  11. RabbitMQ
+      Version check:
+      ```
+      curl -X GET http://localhost:9200 -u 'admin:admin'
+      ```
+      Installation:
+      ```
+      curl -o- https://artifacts.opensearch.org/publickeys/opensearch.pgp | sudo apt-key add -
+      echo "deb https://artifacts.opensearch.org/releases/bundle/opensearch/2.x/apt stable main" | sudo tee           /etc/apt/sources.list.d/opensearch-2.x.list
+      sudo apt update
+      sudo apt list -a opensearch
+      sudo apt -y install opensearch=2.5.0
+      sudo systemctl enable opensearch
+      nano /etc/opensearch/opensearch.yml
+	      #change 'plugins.security.ssl.http.enabled' true to false
+      sudo systemctl start opensearch
+      ```
+
+      Set Magento to use OpenSearch under stores->configuration->catalog->catalog
+      (default HTTP Auth is admin/admin)
+      
+  12. RabbitMQ
 
 </details>
+
 
 ### Symlinks, file ownership and permission
 <details>
